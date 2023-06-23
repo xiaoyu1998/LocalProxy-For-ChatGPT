@@ -1,0 +1,15 @@
+{
+  "name": "localproxy-for-chatgpt",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "https-proxy-agent": "^5.0.1",
+    "node-fetch": "^3.3.0"
+  }
+}
